@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    background-color:rgb(255, 248, 249)
+}
+
+.navbar-brand {
+    font-size: 40px;
+    text-shadow: 5px 1px 1px black;
+    text-transform: uppercase;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    width: 100vw;
+    background-color: rgba(255, 0, 0, 0.288);
+}
+
+.carousel-inner{
+    user-select: none;
+    box-shadow: 2px 0px 30px rgb(68, 68, 68);
+    border-radius: 10px;
+}
+
+.titleCourse {
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.ads {
+    color: rgb(10, 10, 87);
+}
+
+.pq {
+    color: #ff5e00;
+}
+
+.ge {
+    color: #434d83;
+}
+
+.geee {
+    color: #f77700;
+}
+
+.gti {
+    color: blue;
+}
+.bx {
+    width: 400px;
+    height: 300px;
+    font-size: 200px;
+    font-weight: bolder;
+    padding-top: 4px;
+    border: none;
+    border-radius: 0 10px 0 10px;
+}
+
+.pCourse {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+    
+.w-100 {
+    opacity: 0.5;
+}
+.blococards{
+    background-color:rgb(83, 25, 25);
+    padding: 50px 50px;
+}
+
+
+.btn {
+    width: 250px;
+    color: white;
+    font-weight: bolder;
+    color: black;
+    border: 2px solid #DC3545;
+    border-radius: 30px;
+}
+.card{
+    border-radius: 10px;
+    border:none;
+}
+.btn:hover {
+    background-color: #DC3545;
+    color: white;
+}
+
+.itens {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bolder;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+#teste2 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.containerNav {
+    height: 100vh;
+    background-image: url("/assets/fatec2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+.cartao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 500px;
+    height: 300px;
+    padding: 35px;
+    color: rgb(24, 24, 24);
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px rgb(0 0 0 / 25%);
+    background: linear-gradient( 120 deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.25), );
+    backdrop-filter: blur(10px);
+}
+@media(max-width: 575.98px){
+    h5.titleCourse{
+        font-size:2em;
+    }
+    
+}
+@media(min-width: 576px) and (max-width: 767px){
+    h5.titleCourse{
+        font-size:2.5em;
+    }
+}
+@media(min-width: 768px) and (max-width: 992px){
+    h5.titleCourse{
+        font-size:2.6em;
+    }
+}
+
+.containerNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+#btnExplorar {
+    width: 300px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.158);
+    border: none;
+    color: white;
+    letter-spacing: 6px;
+    transition: 1s;
+}
+
+#btnExplorar:hover {
+    transform: scale(1.2);
+}
+
+.center {
+    width: 38%;
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    text-shadow: 5px 5px  black;
+    font-family: 'Anton', sans-serif;
+    justify-content: center;
+    height: 30%;
+}
+
+.center h1 {
+    font-size: 50px;
+}
+
+.navbar-collapse > ul > li  {
+    font-size: 28px;
+    margin: 0 25px;
+    color: black;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    padding-right: 10px;
+}  
+
+::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(122, 0, 0);
+}
+
+#titleCourse {
+    font-family: 'Anton', sans-serif;
+}
+
+#mainTitle {
+    font-family: 'Anton', sans-serif;
+}
+
+.containerA {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+    color: white;
+    background-color: rgb(83, 25, 25);
+}
+
+.linkFooter {
+    text-decoration: none;
+    color: red;
+}
+
+.linkFooter:hover {
+    color: rgb(129, 129, 19);
+}
+
+.col-sm-6 {
+    transition: 1s;
+}
+
+.col-sm-6:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
